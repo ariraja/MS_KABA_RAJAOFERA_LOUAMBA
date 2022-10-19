@@ -11,6 +11,7 @@ This code consists in launching the game MOTUS where the goal of the game is to 
  npm install
  node server.js
 ```
+Enter this link to test the game : [http://localhost:3000]
 
 ---
 
