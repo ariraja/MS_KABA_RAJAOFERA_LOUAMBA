@@ -16,3 +16,16 @@ Enter this link to test the game : [Motus](http://localhost:3000)
 ---
 
 ## How it works ?
+
+```mermaid
+sequenceDiagram
+    Client->>+Server: /
+    Server->>+Client: index.html
+    Client->>Server:/127word
+    Server->>Client:Word_TO_GUESS
+    Note left of Client: Guessing
+    Client->>Client: Guessing and storing info to localstorage
+    Client->>Server:score.html
+    Server->>Client: score.html
+    Client->>Client : load score from local storage
+```
