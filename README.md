@@ -1,5 +1,4 @@
 # MOTUS - Microservices 
----
 Project made by Laurène KABA, Jonathan LOUAMBA and Ari RAJAOFERA.
 
 ## Description
@@ -7,8 +6,8 @@ This code consists in launching the game MOTUS where the goal of the game is to 
 
 ## How to run ?
 `
-npm install
+npm install\n
 node server.js
 `
 ---
-## How tit work ?
+## How it works ?
